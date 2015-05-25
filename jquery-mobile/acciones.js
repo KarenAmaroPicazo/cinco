@@ -8,7 +8,7 @@ document.addEventListener("deviceready",function(){
 	});//barrer izquierda
 	
 	
-	$('#derecha').on ("swipeleft",function(){
+	$('#derecha').on ("swiperight",function(){
 		navigator.notification.confirm("¿Que quieres hacer?",function(opt){
 			switch(opt)
 			{
